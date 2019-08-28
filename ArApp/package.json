@@ -1,0 +1,46 @@
+{
+  "name": "ArApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "clean:build:android": "rm -rf android/app/build",
+    "prod:android": "npm run clean:build:android  && react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res"
+  },
+  "dependencies": {
+    "adb": "^0.2.0",
+    "canvasjs": "^1.8.1",
+    "core-js": "^3.2.1",
+    "fb-watchman": "^2.0.0",
+    "jest-prop-type-error": "^1.1.0",
+    "react": "^16.8.6",
+    "react-native": "^0.60.5",
+    "react-native-chart-kit": "^3.2.0",
+    "react-native-fusioncharts": "^4.0.0",
+    "react-native-pie-chart": "^1.0.13",
+    "react-native-svg": "^9.5.3",
+    "react-native-svg-charts": "^5.3.0",
+    "react-viro": "^2.15.0",
+    "recharts": "^1.6.2",
+    "victory": "^32.3.3",
+    "watchman": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.5.5",
+    "@babel/runtime": "7.5.5",
+    "babel-jest": "24.8.0",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "0.55.0",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native",
+    "transformIgnorePatterns": [
+      "node_modules/(?!(react-native|react-viro)/)"
+    ],
+    "setupFiles": [
+      "jest-prop-type-error"
+    ]
+  }
+}
