@@ -18,6 +18,8 @@ import {colMulSingle} from "./ColumnMultiSeriesSingleValue"
 import {barsMulti} from "./BarMultiSeries" 
 import {lineMulti} from  "./LineMultiSeries"
 import {areaMulLine, areaMulPoly} from "./AreaMultiSeries"
+import barSingleSeries from '../data/BarSingleSeries'
+import lineSingleSeries from '../data/LineSingleSeries'
 
 import {
   ViroARScene,
@@ -34,7 +36,236 @@ import {
   ViroARTrackingTargets
 } from "react-viro";
 
-//Create a Style Sheet for the Font used for Viro Text Objects
+const UNSET = "UNSET";
+const GRAPH_TYPE = "Bar";
+const GRAPH_TYPE2 = "Line"; 
+const initialView = UNSET;
+
+export default class HelloWorldSceneAR extends Component {
+  constructor() {
+    super();
+    // Set initial state here
+    this.state = {
+      graphType: GRAPH_TYPE,
+      //text: "Initializing AR..."
+      
+    }
+    // bind 'this' to functions
+    this._onInitialized = this._onInitialized.bind(this);
+    this._getNewGraphButtonPress = this._getNewGraphButtonPress.bind(this);
+    this._getBar = this._getBar.bind(this);
+    this._getLine = this._getLine.bind(this);
+    this._getGraphSelector = this._getGraphSelector.bind(this);
+  }
+
+//   render() {
+//     if(this.state.graphType == UNSET){
+//       return this._getGraphSelector();
+//     }else if(this.state.graphType == GRAPH_TYPE ){
+//       return this._getBar();
+//     }else if(this.state.graphType == GRAPH_TYPE2){
+//       return this._getLine();
+//     }
+// }
+
+  render() {
+    switch(this.state.graphType) {
+      case "UNSET":
+        return this._getGraphSelector();
+      case "Bar":
+        return this._getBar();
+      case "Line":
+        return this._getLine();
+      default:
+        return (<></>);
+    }
+  }
+
+  _getGraphSelector(){
+    return (
+      <View style={styles.outer}>
+        <View style={styles.inner}>
+
+          <Text style={styles.graphFont} text = {"Choose your desired graph"} >
+            
+          </Text>
+
+          <TouchableHighlight style={styles.buttons}
+            onPress={this._getNewGraphButtonPress(GRAPH_TYPE)}
+            underlayColor={'#68a0ff'} >
+
+            <Text style={styles.buttonText}>Bar</Text>
+          </TouchableHighlight>
+
+          <TouchableHighlight style={styles.buttons}
+            onPress={this._getNewGraphButtonPress(GRAPH_TYPE2)}
+            underlayColor={'#68a0ff'} >
+
+            <Text style={styles.buttonText}>Line</Text>
+          </TouchableHighlight>
+        </View>
+      </View>
+    );
+  }
+
+  _getBar(){
+    return (
+      <ViroARScene onTrackingUpdated={this._onInitialized}>
+       
+        <ViroAmbientLight color={"#aaaaaa"} />
+        <ViroSpotLight
+          innerAngle={5}
+          outerAngle={90}
+          direction={[0, -1, -0.2]}
+          position={[0, 3, 1]}
+          color="#ffffff"
+          castsShadow={true}
+        />
+       
+        <ViroARImageMarker target={"Anchor"}>
+          <ViroNode
+            position={[0, 0, -0.5]}
+            rotation={[0, 0, 0]}
+            scale={[0.1, 0.1, 0.1]}
+          >
+            <ViroImage
+              position={[0.4, -0.3, -0.11]}
+              height={4.5}
+              width={5}
+              placeholderSource={require("./res/white.jpg")}
+              source={{ uri: "https://my_s3_image.jpg" }}                    
+            />
+
+            <ViroText
+              text="Anaplan Graph"
+              width={10}
+              height={100}
+              position={[0.5, 1.5, 0]}
+              style={styles.graphFont}
+            />
+            <ViroAmbientLight color={"#aaaaaa"} />
+            <ViroSpotLight
+              innerAngle={5}
+              outerAngle={90}
+              direction={[0, -1, -0.2]}
+              position={[0, 3, 1]}
+              color="#ffffff"
+              castsShadow={true}
+            />
+            {bars(barSingleSeries)}
+            {yAxesBarNames}
+            {xAxesBarNames}
+            </ViroNode>
+        </ViroARImageMarker>
+      </ViroARScene>
+    );
+  }
+
+  _getLine(){
+    return (
+      <ViroARScene onTrackingUpdated={this._onInitialized}>
+        
+        <ViroAmbientLight color={"#aaaaaa"} />
+        <ViroSpotLight
+          innerAngle={5}
+          outerAngle={90}
+          direction={[0, -1, -0.2]}
+          position={[0, 3, 1]}
+          color="#ffffff"
+          castsShadow={true}
+        />
+       
+        <ViroARImageMarker target={"Anchor"}>
+          
+          <ViroNode
+            position={[0, 0, -0.5]}
+            rotation={[0, 0, 0]}
+            scale={[0.1, 0.1, 0.1]}
+          >
+           
+            <ViroImage
+              position={[0.4, -0.3, -0.11]}
+              height={4.5}
+              width={5}
+              placeholderSource={require("./res/white.jpg")}
+              source={{ uri: "https://my_s3_image.jpg" }}                    
+            />
+
+           
+            <ViroText
+              text="Anaplan Graph"
+              width={10}
+              height={100}
+              position={[0.5, 1.5, 0]}
+              style={styles.graphFont}
+            />
+            <ViroAmbientLight color={"#aaaaaa"} />
+            <ViroSpotLight
+              innerAngle={5}
+              outerAngle={90}
+              direction={[0, -1, -0.2]}
+              position={[0, 3, 1]}
+              color="#ffffff"
+              castsShadow={true}
+            />
+            {line(lineSingleSeries)}
+            {xAxesNames}
+            {yAxesNames}
+            </ViroNode>
+        </ViroARImageMarker>
+      </ViroARScene>  
+    );
+  }
+
+  _getNewGraphButtonPress(graphType) {
+    return () => {
+      this.setState({
+        graphType : graphType
+      })
+    }
+  }
+
+  _resetGraph = () => {
+    this.setState({
+      graphType : UNSET
+    })
+  }
+  
+  //Check Tracking
+  _onInitialized(state, reason) {
+    if (state == ViroConstants.TRACKING_NORMAL) {
+      this.setState({
+        text: "It works!"
+      });
+    } else if (state == ViroConstants.TRACKING_NONE) {
+      // Handle loss of tracking
+    }
+  }
+}
+
+
+//Test Viro Animation
+ViroAnimations.registerAnimations({
+  rotate: {
+    properties: {
+      rotateY: "+=90",
+      rotateZ: "+=90",
+      opacity: "-=0.02",
+      positionX: "+=0.1"
+    },
+    duration: 250 //.25 seconds
+  }
+});
+
+//Create the Image to be used as The marker in AR
+ViroARTrackingTargets.createTargets({
+  Anchor: {
+    source: require("./res/Anchor4.jpg"),
+    orientation: "Up",
+    physicalWidth: 0.2 // real world width in meters
+  }
+});
+
 var styles = StyleSheet.create({
   graphFont: {
     fontFamily: 'Arial',
@@ -71,222 +302,6 @@ var styles = StyleSheet.create({
     flexDirection: 'column',
     alignItems:'center',
     backgroundColor: "black",
-  },
-  
-});
-
-var UNSET = "UNSET";
-var GRAPH_TYPE = "Bar";
-var GRAPH_TYPE2 = "Line"; 
-var initialView = UNSET;
-
-export default class HelloWorldSceneAR extends Component {
-  constructor() {
-    super();
-    // Set initial state here
-    this.state = {
-      text: "Initializing AR...",
-      graphType: GRAPH_TYPE2
-    }
-    // bind 'this' to functions
-    this._onInitialized = this._onInitialized.bind(this);
-    this._getNewGraphButtonPress = this._getNewGraphButtonPress.bind(this);
-    this._getBar = this._getBar.bind(this);
-    this._getLine = this._getLine.bind(this);
-    this._getGraphSelector = this._getGraphSelector.bind(this);
-  }
-
-  render() {
-    if(this.state.graphType == UNSET){
-      return this._getGraphSelector();
-    }else if(this.state.graphType == GRAPH_TYPE ){
-      return this._getBar();
-    }else if(this.state.graphType == GRAPH_TYPE2){
-      return this._getLine();
-    }
-}
-
-  _getGraphSelector(){
-    return (
-      <View style={styles.outer}>
-        <View style={styles.inner}>
-
-          <Text style={styles.graphFont}>
-            Choose your desired experience:
-          </Text>
-
-          <TouchableHighlight style={styles.buttons}
-            onPress={this._getNewGraphButtonPress(GRAPH_TYPE)}
-            underlayColor={'#68a0ff'} >
-
-            <Text style={styles.buttonText}>Bar</Text>
-          </TouchableHighlight>
-
-          <TouchableHighlight style={styles.buttons}
-            onPress={this._getNewGraphButtonPress(GRAPH_TYPE2)}
-            underlayColor={'#68a0ff'} >
-
-            <Text style={styles.buttonText}>Line</Text>
-          </TouchableHighlight>
-        </View>
-      </View>
-    );
-  }
-
-  _getBar(){
-    return(
-      <ViroARScene onTrackingUpdated={this._onInitialized}>
-        {/* Create the lighting */}
-        <ViroAmbientLight color={"#aaaaaa"} />
-        <ViroSpotLight
-          innerAngle={5}
-          outerAngle={90}
-          direction={[0, -1, -0.2]}
-          position={[0, 3, 1]}
-          color="#ffffff"
-          castsShadow={true}
-        />
-        {/* Create the Image marker and put all elements that should be rendered inside */}
-        <ViroARImageMarker target={"Anchor"}>
-          {/* Create a Viro Node to hold all objects as Children */}
-          <ViroNode
-            position={[0, 0, -0.5]}
-            rotation={[0, 0, 0]}
-            scale={[0.1, 0.1, 0.1]}
-          >
-            {/* Create a Background for the Charts */}
-            <ViroImage
-              position={[0.4, -0.3, -0.11]}
-              height={4.5}
-              width={5}
-              placeholderSource={require("./res/white.jpg")}
-              source={{ uri: "https://my_s3_image.jpg" }}                    
-            />
-
-            {/* Create a Title and lighting */}
-            <ViroText
-              text="Anaplan Graph"
-              width={10}
-              height={100}
-              position={[0.5, 1.5, 0]}
-              style={styles.graphFont}
-            />
-            <ViroAmbientLight color={"#aaaaaa"} />
-            <ViroSpotLight
-              innerAngle={5}
-              outerAngle={90}
-              direction={[0, -1, -0.2]}
-              position={[0, 3, 1]}
-              color="#ffffff"
-              castsShadow={true}
-            />
-            {bars}
-            {yAxesBarNames}
-            {xAxesBarNames}
-            {labels}
-            </ViroNode>
-        </ViroARImageMarker>
-      </ViroARScene>
-    );
-  }
-
-  _getLine(){
-    return(
-      <ViroARScene onTrackingUpdated={this._onInitialized}>
-        {/* Create the lighting */}
-        <ViroAmbientLight color={"#aaaaaa"} />
-        <ViroSpotLight
-          innerAngle={5}
-          outerAngle={90}
-          direction={[0, -1, -0.2]}
-          position={[0, 3, 1]}
-          color="#ffffff"
-          castsShadow={true}
-        />
-        {/* Create the Image marker and put all elements that should be rendered inside */}
-        <ViroARImageMarker target={"Anchor"}>
-          {/* Create a Viro Node to hold all objects as Children */}
-          <ViroNode
-            position={[0, 0, -0.5]}
-            rotation={[0, 0, 0]}
-            scale={[0.1, 0.1, 0.1]}
-          >
-            {/* Create a Background for the Charts */}
-            <ViroImage
-              position={[0.4, -0.3, -0.11]}
-              height={4.5}
-              width={5}
-              placeholderSource={require("./res/white.jpg")}
-              source={{ uri: "https://my_s3_image.jpg" }}                    
-            />
-
-            {/* Create a Title and lighting */}
-            <ViroText
-              text="Anaplan Graph"
-              width={10}
-              height={100}
-              position={[0.5, 1.5, 0]}
-              style={styles.graphFont}
-            />
-            <ViroAmbientLight color={"#aaaaaa"} />
-            <ViroSpotLight
-              innerAngle={5}
-              outerAngle={90}
-              direction={[0, -1, -0.2]}
-              position={[0, 3, 1]}
-              color="#ffffff"
-              castsShadow={true}
-            />
-            {line}
-            {labels}
-            </ViroNode>
-        </ViroARImageMarker>
-      </ViroARScene>  
-    );
-  }
-  
-
-  _getNewGraphButtonPress(graphType) {
-    return () => {
-      this.setState({
-        graphType : graphType
-      })
-    }
-  }
-
-  
-  //Check Tracking
-  _onInitialized(state, reason) {
-    if (state == ViroConstants.TRACKING_NORMAL) {
-      this.setState({
-        text: "It works!"
-      });
-    } else if (state == ViroConstants.TRACKING_NONE) {
-      // Handle loss of tracking
-    }
-  }
-}
-
-
-//Test Viro Animation
-ViroAnimations.registerAnimations({
-  rotate: {
-    properties: {
-      rotateY: "+=90",
-      rotateZ: "+=90",
-      opacity: "-=0.02",
-      positionX: "+=0.1"
-    },
-    duration: 250 //.25 seconds
-  }
-});
-
-//Create the Image to be used as The marker in AR
-ViroARTrackingTargets.createTargets({
-  Anchor: {
-    source: require("./res/Anchor4.jpg"),
-    orientation: "Up",
-    physicalWidth: 0.2 // real world width in meters
   }
 });
 

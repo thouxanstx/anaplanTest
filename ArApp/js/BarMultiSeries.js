@@ -14,6 +14,12 @@ var barX; //variable to hold the X positions of Bars in the Bar multi series cha
 export const barsMulti= []; //array to hold the Bar Polylines in the Bar multi series chart
 var startPoint = [1.08, 2.09, 0]; //start X, Y and Z for the Bars in the in the Bar multi series chart
 var endPoint = [0, 2.09, 0]; //end X, Y and Z for the Bars in the Bar multi series chart
+const barShiftY = .292;
+export const barsMultiMaterials = ["colMat2", "colMat4", "colMat10"];
+
+// export const barsMulti = () => {
+//   const seriesData0 = examples["Bar multi series"].bar[0].seriesData;
+// }
 
 for(var i = 0;i < 8; i++)
 {       
@@ -47,7 +53,7 @@ for(var i = 0;i < 8; i++)
         position={[-0.4,-1,0]} 
         points={[[startPoint[0],startPoint[1],startPoint[2]], [endPoint[0],endPoint[1],endPoint[2]]]} 
         thickness={0.005} 
-        materials={"colMat2"} />
+        materials={barsMultiMaterials[0]} />
     </React.Fragment>)
 
   startPoint[1] -= .292 //Change Y position for the start of the next bar
@@ -86,7 +92,7 @@ for(var j = 0;j < 8; j++)
         position={[-0.4,-1.1,0]} 
         points={[[startPoint[0],startPoint[1] ,startPoint[2]], [endPoint[0],endPoint[1],endPoint[2]]]} 
         thickness={0.005} 
-        materials={"colMat10"} />
+        materials={barsMultiMaterials[2]} />
     </React.Fragment>)
 
   startPoint[1] -= .292 //Change Y position for the start of the next bar
@@ -126,7 +132,7 @@ for(var k = 0;k < 8; k++)
         position={[-0.4,-1.2,0]} 
         points={[[startPoint[0],startPoint[1] ,startPoint[2]], [endPoint[0],endPoint[1],endPoint[2]]]} 
         thickness={0.005} 
-        materials={"colMat4"} />
+        materials={barsMultiMaterials[1]} />
     </React.Fragment>)
 
   startPoint[1] -= .292 //Change Y position for the start of the next bar

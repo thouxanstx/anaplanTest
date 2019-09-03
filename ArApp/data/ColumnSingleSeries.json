@@ -1,0 +1,92 @@
+{
+    "column": [{
+        "id": "232000000000",
+        "seriesIndex": 0,
+        "label": "Volumes",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#413EA7",
+        "seriesData": [{
+          "x": "Q1 FY17",
+          "y": 3323232,
+          "displayY": "3,323,232"
+        }, {
+          "x": "Q2 FY17",
+          "y": 3701358,
+          "displayY": "3,701,358"
+        }, {
+          "x": "Q3 FY17",
+          "y": 3343147,
+          "displayY": "3,343,147"
+        }, {
+          "x": "Q4 FY17",
+          "y": 2654763,
+          "displayY": "2,654,763"
+        }, {
+          "x": "Q1 FY18",
+          "y": 4248045.758820399,
+          "displayY": "4,248,046"
+        }, {
+          "x": "Q2 FY18",
+          "y": 3626568,
+          "displayY": "3,626,568"
+        }, {
+          "x": "Q3 FY18",
+          "y": 4523243,
+          "displayY": "4,523,243"
+        }, {
+          "x": "Q4 FY18",
+          "y": 4671246,
+          "displayY": "4,671,246"
+        }]
+      }],
+      "bar": [],
+      "line": [],
+      "scatter": [],
+      "area": [],
+      "pie": [],
+      "allSeries": [{
+        "id": "232000000000",
+        "seriesIndex": 0,
+        "label": "Volumes",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#413EA7",
+        "seriesData": [{
+          "x": "Q1 FY17",
+          "y": 3323232,
+          "displayY": "3,323,232"
+        }, {
+          "x": "Q2 FY17",
+          "y": 3701358,
+          "displayY": "3,701,358"
+        }, {
+          "x": "Q3 FY17",
+          "y": 3343147,
+          "displayY": "3,343,147"
+        }, {
+          "x": "Q4 FY17",
+          "y": 2654763,
+          "displayY": "2,654,763"
+        }, {
+          "x": "Q1 FY18",
+          "y": 4248045.758820399,
+          "displayY": "4,248,046"
+        }, {
+          "x": "Q2 FY18",
+          "y": 3626568,
+          "displayY": "3,626,568"
+        }, {
+          "x": "Q3 FY18",
+          "y": 4523243,
+          "displayY": "4,523,243"
+        }, {
+          "x": "Q4 FY18",
+          "y": 4671246,
+          "displayY": "4,671,246"
+        }]
+      }],
+      "rightAxisMultiplier": 1,
+      "leftAxisTitle": "",
+      "rightAxisTitle": ""
+}

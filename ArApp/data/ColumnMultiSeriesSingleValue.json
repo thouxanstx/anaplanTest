@@ -1,0 +1,468 @@
+{
+    "column": [{
+        "id": "224000000001",
+        "seriesIndex": 0,
+        "label": "Make-up A (250ml - FR)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#413EA7",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 664232167.0668697,
+            "displayY": "664,232,167"
+        }]
+        }, {
+        "id": "224000000017",
+        "seriesIndex": 1,
+        "label": "Revitalizing M (150ml - FR)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#00C8B2",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 409787784.7374175,
+            "displayY": "409,787,785"
+        }]
+        }, {
+        "id": "224000000016",
+        "seriesIndex": 2,
+        "label": "Revitalizing M (250ml - FR)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#FFA437",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 375317539.1178749,
+            "displayY": "375,317,539"
+        }]
+        }, {
+        "id": "224000000009",
+        "seriesIndex": 3,
+        "label": "Body Cream G (150ml - FR)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#F7E64F",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 294440253.1506582,
+            "displayY": "294,440,253"
+        }]
+        }, {
+        "id": "224000000013",
+        "seriesIndex": 4,
+        "label": "Make-up D (50ml - FR)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#00A8EC",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 261927475.42829162,
+            "displayY": "261,927,475"
+        }]
+        }, {
+        "id": "224000000008",
+        "seriesIndex": 5,
+        "label": "Body Cream G (250ml - FR)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#F44A22",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 252401338.29289514,
+            "displayY": "252,401,338"
+        }]
+        }, {
+        "id": "224000000018",
+        "seriesIndex": 6,
+        "label": "Shampoo W (200ml - 1/pack)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#546775",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 221014169.1742064,
+            "displayY": "221,014,169"
+        }]
+        }, {
+        "id": "224000000012",
+        "seriesIndex": 7,
+        "label": "Make-up D (100ml - FR)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#B31C1C",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 204810811.99521855,
+            "displayY": "204,810,812"
+        }]
+        }, {
+        "id": "224000000003",
+        "seriesIndex": 8,
+        "label": "Make-up A (75ml - FR)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#8C3B8C",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 204722966.4065898,
+            "displayY": "204,722,966"
+        }]
+        }, {
+        "id": "224000000014",
+        "seriesIndex": 9,
+        "label": "Body Lotion U (200ml - 1/pack)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#413EA7",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 195929985.3325308,
+            "displayY": "195,929,985"
+        }]
+        }, {
+        "id": "224000000010",
+        "seriesIndex": 10,
+        "label": "Body Cream F (250ml - FR)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#00C8B2",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 163270757.31954026,
+            "displayY": "163,270,757"
+        }]
+        }, {
+        "id": "224000000004",
+        "seriesIndex": 11,
+        "label": "Solar Protect B (250ml - FR)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#FFA437",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 153956758.49252924,
+            "displayY": "153,956,758"
+        }]
+        }, {
+        "id": "224000000011",
+        "seriesIndex": 12,
+        "label": "Body Cream F (150ml - FR)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#F7E64F",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 130466198.40685742,
+            "displayY": "130,466,198"
+        }]
+        }, {
+        "id": "224000000005",
+        "seriesIndex": 13,
+        "label": "Solar Protect B (150ml - FR)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#00A8EC",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 124626366.17898482,
+            "displayY": "124,626,366"
+        }]
+        }, {
+        "id": "224000000006",
+        "seriesIndex": 14,
+        "label": "Shampoo S (250ml - Dry Hair)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#F44A22",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 122875691.57955788,
+            "displayY": "122,875,692"
+        }]
+        }, {
+        "id": "224000000007",
+        "seriesIndex": 15,
+        "label": "Shampoo S (250ml - Curly Hair)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#546775",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 99216783.74166323,
+            "displayY": "99,216,784"
+        }]
+        }, {
+        "id": "224000000015",
+        "seriesIndex": 16,
+        "label": "Body Lotion U (400ml - 2/pack)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#B31C1C",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 51743311.1081515,
+            "displayY": "51,743,311"
+        }]
+        }, {
+        "id": "224000000019",
+        "seriesIndex": 17,
+        "label": "Shampoo W (400ml - 2/pack)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#8C3B8C",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 49512962.22824481,
+            "displayY": "49,512,962"
+        }]
+        }, {
+        "id": "224000000002",
+        "seriesIndex": 18,
+        "label": "Make-up A (150ml - FR)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#413EA7",
+        "seriesData": [{
+            "x": "FY18",
+            "y": -202842660.47703475,
+            "displayY": "(202,842,660)"
+        }]
+        }],
+        "bar": [],
+        "line": [],
+        "scatter": [],
+        "area": [],
+        "pie": [],
+        "allSeries": [{
+        "id": "224000000001",
+        "seriesIndex": 0,
+        "label": "Make-up A (250ml - FR)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#413EA7",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 664232167.0668697,
+            "displayY": "664,232,167"
+        }]
+        }, {
+        "id": "224000000017",
+        "seriesIndex": 1,
+        "label": "Revitalizing M (150ml - FR)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#00C8B2",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 409787784.7374175,
+            "displayY": "409,787,785"
+        }]
+        }, {
+        "id": "224000000016",
+        "seriesIndex": 2,
+        "label": "Revitalizing M (250ml - FR)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#FFA437",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 375317539.1178749,
+            "displayY": "375,317,539"
+        }]
+        }, {
+        "id": "224000000009",
+        "seriesIndex": 3,
+        "label": "Body Cream G (150ml - FR)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#F7E64F",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 294440253.1506582,
+            "displayY": "294,440,253"
+        }]
+        }, {
+        "id": "224000000013",
+        "seriesIndex": 4,
+        "label": "Make-up D (50ml - FR)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#00A8EC",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 261927475.42829162,
+            "displayY": "261,927,475"
+        }]
+        }, {
+        "id": "224000000008",
+        "seriesIndex": 5,
+        "label": "Body Cream G (250ml - FR)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#F44A22",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 252401338.29289514,
+            "displayY": "252,401,338"
+        }]
+        }, {
+        "id": "224000000018",
+        "seriesIndex": 6,
+        "label": "Shampoo W (200ml - 1/pack)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#546775",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 221014169.1742064,
+            "displayY": "221,014,169"
+        }]
+        }, {
+        "id": "224000000012",
+        "seriesIndex": 7,
+        "label": "Make-up D (100ml - FR)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#B31C1C",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 204810811.99521855,
+            "displayY": "204,810,812"
+        }]
+        }, {
+        "id": "224000000003",
+        "seriesIndex": 8,
+        "label": "Make-up A (75ml - FR)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#8C3B8C",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 204722966.4065898,
+            "displayY": "204,722,966"
+        }]
+        }, {
+        "id": "224000000014",
+        "seriesIndex": 9,
+        "label": "Body Lotion U (200ml - 1/pack)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#413EA7",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 195929985.3325308,
+            "displayY": "195,929,985"
+        }]
+        }, {
+        "id": "224000000010",
+        "seriesIndex": 10,
+        "label": "Body Cream F (250ml - FR)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#00C8B2",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 163270757.31954026,
+            "displayY": "163,270,757"
+        }]
+        }, {
+        "id": "224000000004",
+        "seriesIndex": 11,
+        "label": "Solar Protect B (250ml - FR)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#FFA437",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 153956758.49252924,
+            "displayY": "153,956,758"
+        }]
+        }, {
+        "id": "224000000011",
+        "seriesIndex": 12,
+        "label": "Body Cream F (150ml - FR)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#F7E64F",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 130466198.40685742,
+            "displayY": "130,466,198"
+        }]
+        }, {
+        "id": "224000000005",
+        "seriesIndex": 13,
+        "label": "Solar Protect B (150ml - FR)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#00A8EC",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 124626366.17898482,
+            "displayY": "124,626,366"
+        }]
+        }, {
+        "id": "224000000006",
+        "seriesIndex": 14,
+        "label": "Shampoo S (250ml - Dry Hair)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#F44A22",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 122875691.57955788,
+            "displayY": "122,875,692"
+        }]
+        }, {
+        "id": "224000000007",
+        "seriesIndex": 15,
+        "label": "Shampoo S (250ml - Curly Hair)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#546775",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 99216783.74166323,
+            "displayY": "99,216,784"
+        }]
+        }, {
+        "id": "224000000015",
+        "seriesIndex": 16,
+        "label": "Body Lotion U (400ml - 2/pack)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#B31C1C",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 51743311.1081515,
+            "displayY": "51,743,311"
+        }]
+        }, {
+        "id": "224000000019",
+        "seriesIndex": 17,
+        "label": "Shampoo W (400ml - 2/pack)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#8C3B8C",
+        "seriesData": [{
+            "x": "FY18",
+            "y": 49512962.22824481,
+            "displayY": "49,512,962"
+        }]
+        }, {
+        "id": "224000000002",
+        "seriesIndex": 18,
+        "label": "Make-up A (150ml - FR)",
+        "seriesType": "column",
+        "showOnRightAxis": false,
+        "color": "#413EA7",
+        "seriesData": [{
+            "x": "FY18",
+            "y": -202842660.47703475,
+            "displayY": "(202,842,660)"
+        }]
+        }],
+        "rightAxisMultiplier": 1,
+        "leftAxisTitle": "USD",
+        "rightAxisTitle": ""  
+}

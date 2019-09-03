@@ -14,7 +14,7 @@ var lineY; //variable to hold the Y positions of Lines in the Line Chart
 export const lineMulti = []; //array to hold the Line Polylines
 var startPoint = [-0.3, examples["Line multi series"]["line"][0]["seriesData"][0]["y"] / scaler / 185, 0]; //start X, Y and Z for the Lines in the Line Chart
 var endPoint = [-0.3, 0, 0]; //end X, Y and Z for the Lines in the Line Chart
-
+export const lineMultiMaterials = ["colMat2", "colMat4", "colMat10"];
 //For Loop for creating Line graph
 for (var i = 0; i < 8; i++) {
 
@@ -32,7 +32,7 @@ for (var i = 0; i < 8; i++) {
             [startPoint[0], startPoint[1], startPoint[2]],
             [endPoint[0], endPoint[1], endPoint[2]]]}
           thickness={0.005}
-          materials={"colMat2"}
+          materials={lineMultiMaterials[0]}
         /></React.Fragment>
     );
     //Create the dots
@@ -44,7 +44,7 @@ for (var i = 0; i < 8; i++) {
             [startPoint[0], startPoint[1], startPoint[2]],
             [startPoint[0], startPoint[1], startPoint[2]]]}
           thickness={0.015}
-          materials={"colMat2"}
+          materials={lineMultiMaterials[0]}
         /></React.Fragment>
     );
     //Create the last dot
@@ -58,7 +58,7 @@ for (var i = 0; i < 8; i++) {
                 [endPoint[0], endPoint[1], endPoint[2]],
                 [endPoint[0], endPoint[1], endPoint[2]]]}
               thickness={0.015}
-              materials={"colMat2"}
+              materials={lineMultiMaterials[0]}
             /></React.Fragment>
         );
       }
@@ -87,7 +87,7 @@ for (var j = 0; j < 8; j++) {
             [startPoint[0], startPoint[1], startPoint[2]],
             [endPoint[0], endPoint[1], endPoint[2]]]}
           thickness={0.005}
-          materials={"colMat10"}
+          materials={lineMultiMaterials[2]}
         /></React.Fragment>
     );
     //Create the dots
@@ -99,7 +99,7 @@ for (var j = 0; j < 8; j++) {
             [startPoint[0], startPoint[1], startPoint[2]],
             [startPoint[0], startPoint[1], startPoint[2]]]}
           thickness={0.015}
-          materials={"colMat10"}
+          materials={lineMultiMaterials[2]}
         /></React.Fragment>
     );
     //Create the last dot
@@ -113,7 +113,7 @@ for (var j = 0; j < 8; j++) {
               [endPoint[0], endPoint[1], endPoint[2]],
               [endPoint[0], endPoint[1], endPoint[2]]]}
             thickness={0.015}
-            materials={"colMat10"}
+            materials={lineMultiMaterials[2]}
           /></React.Fragment>
       );
     }
@@ -142,7 +142,7 @@ for (var k = 0; k < 8; k++) {
             [startPoint[0], startPoint[1], startPoint[2]],
             [endPoint[0], endPoint[1], endPoint[2]]]}
           thickness={0.005}
-          materials={"colMat4"}
+          materials={lineMultiMaterials[1]}
         /></React.Fragment>
     );
     //Create the dots
@@ -154,7 +154,7 @@ for (var k = 0; k < 8; k++) {
             [startPoint[0], startPoint[1], startPoint[2]],
             [startPoint[0], startPoint[1], startPoint[2]]]}
           thickness={0.015}
-          materials={"colMat4"}
+          materials={lineMultiMaterials[1]}
         /></React.Fragment>
     );
     //Create the last dot
@@ -168,7 +168,7 @@ for (var k = 0; k < 8; k++) {
               [endPoint[0], endPoint[1], endPoint[2]],
               [endPoint[0], endPoint[1], endPoint[2]]]}
             thickness={0.015}
-            materials={"colMat4"}
+            materials={lineMultiMaterials[1]}
         /></React.Fragment>
       );
     }

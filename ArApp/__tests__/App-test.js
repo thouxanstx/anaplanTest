@@ -7,51 +7,34 @@ import 'react-viro';
 import React, {Component} from 'react';
 import { Text, StyleSheet } from 'react-native';
 import renderer from 'react-test-renderer';
-import {ViroText, ViroPolyline} from 'react-viro';
-import { BarSingleSeries, bars } from '../js/BarSingleSeries';
-import { areaLine, areaPoly } from '../js/AreaSingleSeries';
-import { barsMulti } from '../js/BarMultiSeries';
+import { bars, barsMaterials } from '../js/BarSingleSeries';
+import { areaLine, areaPoly, areaMaterials } from '../js/AreaSingleSeries';
+import { barsMulti, barsMultiMaterials } from '../js/BarMultiSeries';
 import { areaMulLine, areaMulPoly } from '../js/AreaMultiSeries';
-import { line } from '../js/LineSingleSeries';
-import { lineMulti } from '../js/LineMultiSeries';
-import { columns } from '../js/ColumnSingleSeries';
+import { line, lineMaterials } from '../js/LineSingleSeries';
+import { lineMulti, lineMultiMaterials } from '../js/LineMultiSeries';
+import { columns, columnMaterials } from '../js/ColumnSingleSeries';
 import { colMulti } from '../js/ColumnMultiSeries';
 import { colMulSingle } from '../js/ColumnMultiSeriesSingleValue';
 import { pieTriangles } from '../js/PieChart';
 import { labels } from '../js/Labels';
+import {uniqueKeyGenerator} from "../js/utils";
+import barSingleSeries from "../data/BarSingleSeries.json";
+import lineSingleSeries from "../data/LineSingleSeries.json";
+import areaSingleSeries from "../data/AreaSingleSeries.json";
+import columnSingleSeries from "../data/ColumnSingleSeries.json";
 // // Note: test renderer must be required after react-native.
-
-it('renders correctly react text', () => {
-  const tree = renderer.create(
-    <Text text = 'whatever' />
-  ).toJSON();
-  expect(tree).toMatchSnapshot();
-});
-
-it('renders correctly viro text', () => {
-  const tree = renderer.create(
-    <ViroText text = "whatever" />
-  ).toJSON();
-  expect(tree).toMatchSnapshot();
-});
-
-it('renders correctly viro line', () => {
-  const tree = renderer.create(
-    <ViroPolyline position={[0,0,-2]} points={[[0,0,0], [.5,.5,.5], [1,0,0]]} thickness={0.2} materials={"red"} />
-  ).toJSON();
-  expect(tree).toMatchSnapshot();
-});
 
 it('renders correctly single bars', () => {
   const tree = renderer.create(
-    [bars]
+    [bars(barSingleSeries)]
   ).toJSON();
   expect(tree).toMatchSnapshot();
 });
 
 it('renders correctly area line', () => {
   const tree = renderer.create(
-    [areaLine]
+    [areaLine(areaSingleSeries)]
   ).toJSON();
   expect(tree).toMatchSnapshot();
 });
@@ -86,7 +69,7 @@ it('renders correctly multi area polygon', () => {
 
 it('renders correctly single line', () => {
   const tree = renderer.create(
-    [line]
+    [line(lineSingleSeries)]
   ).toJSON();
   expect(tree).toMatchSnapshot();
 });
@@ -100,7 +83,7 @@ it('renders correctly multi line', () => {
 
 it('renders correctly single column', () => {
   const tree = renderer.create(
-    [columns]
+    [columns(columnSingleSeries)]
   ).toJSON();
   expect(tree).toMatchSnapshot();
 });
@@ -135,7 +118,7 @@ it('renders correctly labels', () => {
 
 it('generates unique key', () => {
   const tree = {
-    key : Math.random().toString(36).substr(2, 9)
+    key : uniqueKeyGenerator()
   };
   expect(tree).toMatchSnapshot({
     key : expect.any(String)
@@ -147,7 +130,7 @@ it('renders correct material bar single', () => {
     materials : ["colMat2"]
   };
   expect(tree).toMatchSnapshot({
-    materials : expect.anything(bars.materials)
+    materials : expect.anything(barsMaterials)
   });
 });
 
@@ -156,7 +139,7 @@ it('renders correct material bar multi', () => {
     materials : ["colMat2", "colMat4", "colMat10"]
   };
   expect(tree).toMatchSnapshot({
-    materials : expect.anything(bars.materials)
+    materials : expect.anything(barsMultiMaterials)
   });
 });
 
@@ -165,7 +148,7 @@ it('renders correct material line single', () => {
     materials : ["colMat2"]
   };
   expect(tree).toMatchSnapshot({
-    materials : expect.anything(line.materials)
+    materials : expect.anything(lineMaterials)
   });
 });
 
@@ -174,6 +157,25 @@ it('renders correct material line multi', () => {
     materials : ["colMat2", "colMat4", "colMat10"]
   };
   expect(tree).toMatchSnapshot({
-    materials : expect.anything(line.materials)
+    materials : expect.anything(lineMaterials)
   });
 });
+
+it('renders correct material area single', () => {
+  const tree = {
+    materials : ["colMat2"]
+  };
+  expect(tree).toMatchSnapshot({
+    materials : expect.anything(areaMaterials)
+  });
+});
+
+it('renders correct material column single', () => {
+  const tree = {
+    materials : ["colMat2"]
+  };
+  expect(tree).toMatchSnapshot({
+    materials : expect.anything(columnMaterials)
+  });
+});
+

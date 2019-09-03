@@ -6,6 +6,12 @@ Object {
 }
 `;
 
+exports[`renders correct material area single 1`] = `
+Object {
+  "materials": Anything,
+}
+`;
+
 exports[`renders correct material bar multi 1`] = `
 Object {
   "materials": Anything,
@@ -13,6 +19,12 @@ Object {
 `;
 
 exports[`renders correct material bar single 1`] = `
+Object {
+  "materials": Anything,
+}
+`;
+
+exports[`renders correct material column single 1`] = `
 Object {
   "materials": Anything,
 }
@@ -65,7 +77,7 @@ Array [
       Array [
         Array [
           -0.3,
-          1.5456893023255813,
+          NaN,
           0,
         ],
         Array [
@@ -117,64 +129,12 @@ Array [
       Array [
         Array [
           -0.3,
-          1.5456893023255813,
+          NaN,
           0,
         ],
         Array [
           -0.3,
-          1.5456893023255813,
-          0,
-        ],
-      ]
-    }
-    position={
-      Array [
-        -0.2,
-        -1,
-        0,
-      ]
-    }
-    thickness={0.02}
-  />,
-  <VRTPolyline
-    canClick={false}
-    canCollide={false}
-    canDrag={false}
-    canFuse={false}
-    canHover={false}
-    canPinch={false}
-    canRotate={false}
-    canScroll={false}
-    canSwipe={false}
-    canTouch={false}
-    hasTransformDelegate={false}
-    materials={
-      Array [
-        "colMat2",
-      ]
-    }
-    onAnimationFinishViro={[Function]}
-    onAnimationStartViro={[Function]}
-    onClickViro={[Function]}
-    onCollisionViro={[Function]}
-    onDragViro={[Function]}
-    onFuseViro={[Function]}
-    onHoverViro={[Function]}
-    onPinchViro={[Function]}
-    onRotateViro={[Function]}
-    onScrollViro={[Function]}
-    onSwipeViro={[Function]}
-    onTouchViro={[Function]}
-    points={
-      Array [
-        Array [
-          -0.3,
-          1.5456893023255813,
-          0,
-        ],
-        Array [
-          0,
-          1.7215618604651164,
+          1.4215618604651163,
           0,
         ],
       ]
@@ -221,64 +181,12 @@ Array [
       Array [
         Array [
           -0.3,
-          1.5456893023255813,
+          NaN,
           0,
         ],
         Array [
           -0.3,
-          1.5456893023255813,
-          0,
-        ],
-      ]
-    }
-    position={
-      Array [
-        -0.2,
-        -1,
-        0,
-      ]
-    }
-    thickness={0.02}
-  />,
-  <VRTPolyline
-    canClick={false}
-    canCollide={false}
-    canDrag={false}
-    canFuse={false}
-    canHover={false}
-    canPinch={false}
-    canRotate={false}
-    canScroll={false}
-    canSwipe={false}
-    canTouch={false}
-    hasTransformDelegate={false}
-    materials={
-      Array [
-        "colMat2",
-      ]
-    }
-    onAnimationFinishViro={[Function]}
-    onAnimationStartViro={[Function]}
-    onClickViro={[Function]}
-    onCollisionViro={[Function]}
-    onDragViro={[Function]}
-    onFuseViro={[Function]}
-    onHoverViro={[Function]}
-    onPinchViro={[Function]}
-    onRotateViro={[Function]}
-    onScrollViro={[Function]}
-    onSwipeViro={[Function]}
-    onTouchViro={[Function]}
-    points={
-      Array [
-        Array [
-          0,
-          1.7215618604651164,
-          0,
-        ],
-        Array [
-          0.3,
-          1.5549520930232559,
+          0.9549520930232559,
           0,
         ],
       ]
@@ -324,65 +232,13 @@ Array [
     points={
       Array [
         Array [
-          0,
-          1.7215618604651164,
-          0,
-        ],
-        Array [
-          0,
-          1.7215618604651164,
-          0,
-        ],
-      ]
-    }
-    position={
-      Array [
-        -0.2,
-        -1,
-        0,
-      ]
-    }
-    thickness={0.02}
-  />,
-  <VRTPolyline
-    canClick={false}
-    canCollide={false}
-    canDrag={false}
-    canFuse={false}
-    canHover={false}
-    canPinch={false}
-    canRotate={false}
-    canScroll={false}
-    canSwipe={false}
-    canTouch={false}
-    hasTransformDelegate={false}
-    materials={
-      Array [
-        "colMat2",
-      ]
-    }
-    onAnimationFinishViro={[Function]}
-    onAnimationStartViro={[Function]}
-    onClickViro={[Function]}
-    onCollisionViro={[Function]}
-    onDragViro={[Function]}
-    onFuseViro={[Function]}
-    onHoverViro={[Function]}
-    onPinchViro={[Function]}
-    onRotateViro={[Function]}
-    onScrollViro={[Function]}
-    onSwipeViro={[Function]}
-    onTouchViro={[Function]}
-    points={
-      Array [
-        Array [
-          0.3,
-          1.5549520930232559,
+          -0.3,
+          NaN,
           0,
         ],
         Array [
-          0.6,
-          1.234773488372093,
+          -0.3,
+          0.3347734883720932,
           0,
         ],
       ]
@@ -428,65 +284,13 @@ Array [
     points={
       Array [
         Array [
-          0.3,
-          1.5549520930232559,
+          -0.3,
+          NaN,
           0,
         ],
         Array [
-          0.3,
-          1.5549520930232559,
-          0,
-        ],
-      ]
-    }
-    position={
-      Array [
-        -0.2,
-        -1,
-        0,
-      ]
-    }
-    thickness={0.02}
-  />,
-  <VRTPolyline
-    canClick={false}
-    canCollide={false}
-    canDrag={false}
-    canFuse={false}
-    canHover={false}
-    canPinch={false}
-    canRotate={false}
-    canScroll={false}
-    canSwipe={false}
-    canTouch={false}
-    hasTransformDelegate={false}
-    materials={
-      Array [
-        "colMat2",
-      ]
-    }
-    onAnimationFinishViro={[Function]}
-    onAnimationStartViro={[Function]}
-    onClickViro={[Function]}
-    onCollisionViro={[Function]}
-    onDragViro={[Function]}
-    onFuseViro={[Function]}
-    onHoverViro={[Function]}
-    onPinchViro={[Function]}
-    onRotateViro={[Function]}
-    onScrollViro={[Function]}
-    onSwipeViro={[Function]}
-    onTouchViro={[Function]}
-    points={
-      Array [
-        Array [
-          0.6,
-          1.234773488372093,
-          0,
-        ],
-        Array [
-          0.8999999999999999,
-          1.9758352366606506,
+          -0.3,
+          0.7758352366606507,
           0,
         ],
       ]
@@ -532,65 +336,13 @@ Array [
     points={
       Array [
         Array [
-          0.6,
-          1.234773488372093,
+          -0.3,
+          NaN,
           0,
         ],
         Array [
-          0.6,
-          1.234773488372093,
-          0,
-        ],
-      ]
-    }
-    position={
-      Array [
-        -0.2,
-        -1,
-        0,
-      ]
-    }
-    thickness={0.02}
-  />,
-  <VRTPolyline
-    canClick={false}
-    canCollide={false}
-    canDrag={false}
-    canFuse={false}
-    canHover={false}
-    canPinch={false}
-    canRotate={false}
-    canScroll={false}
-    canSwipe={false}
-    canTouch={false}
-    hasTransformDelegate={false}
-    materials={
-      Array [
-        "colMat2",
-      ]
-    }
-    onAnimationFinishViro={[Function]}
-    onAnimationStartViro={[Function]}
-    onClickViro={[Function]}
-    onCollisionViro={[Function]}
-    onDragViro={[Function]}
-    onFuseViro={[Function]}
-    onHoverViro={[Function]}
-    onPinchViro={[Function]}
-    onRotateViro={[Function]}
-    onScrollViro={[Function]}
-    onSwipeViro={[Function]}
-    onTouchViro={[Function]}
-    points={
-      Array [
-        Array [
-          0.8999999999999999,
-          1.9758352366606506,
-          0,
-        ],
-        Array [
-          1.2,
-          1.6867758139534883,
+          -0.3,
+          0.1867758139534883,
           0,
         ],
       ]
@@ -636,65 +388,13 @@ Array [
     points={
       Array [
         Array [
-          0.8999999999999999,
-          1.9758352366606506,
+          -0.3,
+          NaN,
           0,
         ],
         Array [
-          0.8999999999999999,
-          1.9758352366606506,
-          0,
-        ],
-      ]
-    }
-    position={
-      Array [
-        -0.2,
-        -1,
-        0,
-      ]
-    }
-    thickness={0.02}
-  />,
-  <VRTPolyline
-    canClick={false}
-    canCollide={false}
-    canDrag={false}
-    canFuse={false}
-    canHover={false}
-    canPinch={false}
-    canRotate={false}
-    canScroll={false}
-    canSwipe={false}
-    canTouch={false}
-    hasTransformDelegate={false}
-    materials={
-      Array [
-        "colMat2",
-      ]
-    }
-    onAnimationFinishViro={[Function]}
-    onAnimationStartViro={[Function]}
-    onClickViro={[Function]}
-    onCollisionViro={[Function]}
-    onDragViro={[Function]}
-    onFuseViro={[Function]}
-    onHoverViro={[Function]}
-    onPinchViro={[Function]}
-    onRotateViro={[Function]}
-    onScrollViro={[Function]}
-    onSwipeViro={[Function]}
-    onTouchViro={[Function]}
-    points={
-      Array [
-        Array [
-          1.2,
-          1.6867758139534883,
-          0,
-        ],
-        Array [
-          1.5,
-          2.103833953488372,
+          -0.3,
+          0.3038339534883723,
           0,
         ],
       ]
@@ -740,13 +440,13 @@ Array [
     points={
       Array [
         Array [
-          1.2,
-          1.6867758139534883,
+          -0.3,
+          NaN,
           0,
         ],
         Array [
-          1.2,
-          1.6867758139534883,
+          -0.3,
+          0.07267255813953488,
           0,
         ],
       ]
@@ -761,6 +461,100 @@ Array [
     thickness={0.02}
   />,
   <VRTPolyline
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    materials={
+      Array [
+        "colMat",
+      ]
+    }
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    points={
+      Array [
+        Array [
+          -0.6,
+          -0.8,
+          0,
+        ],
+      ]
+    }
+    position={
+      Array [
+        -0.5,
+        -1,
+        0,
+      ]
+    }
+    thickness={0.01}
+  />,
+  ",",
+  <VRTText
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    height={100}
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    position={
+      Array [
+        4.1,
+        -1.86,
+        0,
+      ]
+    }
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontFamily": "Arial",
+          "fontSize": 20,
+          "textAlign": "left",
+          "textAlignVertical": "center",
+        },
+      ]
+    }
+    text="Volumes"
+    width={10}
+  />,
+  <VRTPolygon
     canClick={false}
     canCollide={false}
     canDrag={false}
@@ -789,236 +583,79 @@ Array [
     onScrollViro={[Function]}
     onSwipeViro={[Function]}
     onTouchViro={[Function]}
-    points={
+    opacity={0.7}
+    position={
+      Array [
+        -0.2,
+        -1,
+        0,
+      ]
+    }
+    rotation={
+      Array [
+        0,
+        0,
+        0,
+      ]
+    }
+    style={
+      Array [
+        undefined,
+      ]
+    }
+    vertices={
       Array [
         Array [
-          1.5,
-          2.103833953488372,
+          -0.3,
+          -0.95,
+        ],
+        Array [
+          -0.3,
+          undefined,
+        ],
+        Array [
+          -0.3,
           0,
+        ],
+        Array [
+          undefined,
+          undefined,
+        ],
+        Array [
+          undefined,
+          undefined,
+        ],
+        Array [
+          undefined,
+          undefined,
+        ],
+        Array [
+          undefined,
+          undefined,
+        ],
+        Array [
+          undefined,
+          undefined,
+        ],
+        Array [
+          undefined,
+          undefined,
+        ],
+        Array [
+          undefined,
+          undefined,
         ],
         Array [
           1.8,
-          2.172672558139535,
-          0,
+          -0.05,
         ],
       ]
     }
-    position={
-      Array [
-        -0.2,
-        -1,
-        0,
-      ]
-    }
-    thickness={0.01}
-  />,
-  <VRTPolyline
-    canClick={false}
-    canCollide={false}
-    canDrag={false}
-    canFuse={false}
-    canHover={false}
-    canPinch={false}
-    canRotate={false}
-    canScroll={false}
-    canSwipe={false}
-    canTouch={false}
-    hasTransformDelegate={false}
-    materials={
-      Array [
-        "colMat2",
-      ]
-    }
-    onAnimationFinishViro={[Function]}
-    onAnimationStartViro={[Function]}
-    onClickViro={[Function]}
-    onCollisionViro={[Function]}
-    onDragViro={[Function]}
-    onFuseViro={[Function]}
-    onHoverViro={[Function]}
-    onPinchViro={[Function]}
-    onRotateViro={[Function]}
-    onScrollViro={[Function]}
-    onSwipeViro={[Function]}
-    onTouchViro={[Function]}
-    points={
-      Array [
-        Array [
-          1.5,
-          2.103833953488372,
-          0,
-        ],
-        Array [
-          1.5,
-          2.103833953488372,
-          0,
-        ],
-      ]
-    }
-    position={
-      Array [
-        -0.2,
-        -1,
-        0,
-      ]
-    }
-    thickness={0.02}
-  />,
-  <VRTPolyline
-    canClick={false}
-    canCollide={false}
-    canDrag={false}
-    canFuse={false}
-    canHover={false}
-    canPinch={false}
-    canRotate={false}
-    canScroll={false}
-    canSwipe={false}
-    canTouch={false}
-    hasTransformDelegate={false}
-    materials={
-      Array [
-        "colMat2",
-      ]
-    }
-    onAnimationFinishViro={[Function]}
-    onAnimationStartViro={[Function]}
-    onClickViro={[Function]}
-    onCollisionViro={[Function]}
-    onDragViro={[Function]}
-    onFuseViro={[Function]}
-    onHoverViro={[Function]}
-    onPinchViro={[Function]}
-    onRotateViro={[Function]}
-    onScrollViro={[Function]}
-    onSwipeViro={[Function]}
-    onTouchViro={[Function]}
-    points={
-      Array [
-        Array [
-          1.8,
-          2.172672558139535,
-          0,
-        ],
-        Array [
-          1.8,
-          2.172672558139535,
-          0,
-        ],
-      ]
-    }
-    position={
-      Array [
-        -0.2,
-        -1,
-        0,
-      ]
-    }
-    thickness={0.02}
   />,
 ]
 `;
 
-exports[`renders correctly area polygon 1`] = `
-<VRTPolygon
-  canClick={false}
-  canCollide={false}
-  canDrag={false}
-  canFuse={false}
-  canHover={false}
-  canPinch={false}
-  canRotate={false}
-  canScroll={false}
-  canSwipe={false}
-  canTouch={false}
-  hasTransformDelegate={false}
-  materials={
-    Array [
-      "colMat2",
-    ]
-  }
-  onAnimationFinishViro={[Function]}
-  onAnimationStartViro={[Function]}
-  onClickViro={[Function]}
-  onCollisionViro={[Function]}
-  onDragViro={[Function]}
-  onFuseViro={[Function]}
-  onHoverViro={[Function]}
-  onPinchViro={[Function]}
-  onRotateViro={[Function]}
-  onScrollViro={[Function]}
-  onSwipeViro={[Function]}
-  onTouchViro={[Function]}
-  opacity={0.7}
-  position={
-    Array [
-      -0.2,
-      -1,
-      0,
-    ]
-  }
-  rotation={
-    Array [
-      0,
-      0,
-      0,
-    ]
-  }
-  style={
-    Array [
-      undefined,
-    ]
-  }
-  vertices={
-    Array [
-      Array [
-        -0.3,
-        -0.05,
-      ],
-      Array [
-        -0.3,
-        1.5456893023255813,
-      ],
-      Array [
-        -0.3,
-        1.5456893023255813,
-      ],
-      Array [
-        0,
-        1.7215618604651164,
-      ],
-      Array [
-        0.3,
-        1.5549520930232559,
-      ],
-      Array [
-        0.6,
-        1.234773488372093,
-      ],
-      Array [
-        0.8999999999999999,
-        1.9758352366606506,
-      ],
-      Array [
-        1.2,
-        1.6867758139534883,
-      ],
-      Array [
-        1.5,
-        2.103833953488372,
-      ],
-      Array [
-        1.8,
-        2.172672558139535,
-      ],
-      Array [
-        1.8,
-        -0.05,
-      ],
-    ]
-  }
-/>
-`;
+exports[`renders correctly area polygon 1`] = `null`;
 
 exports[`renders correctly labels 1`] = `
 Array [
@@ -1054,17 +691,17 @@ Array [
     points={
       Array [
         Array [
-          -0.54,
-          -0.8,
-          0,
+          NaN,
+          NaN,
+          undefined,
         ],
       ]
     }
     position={
       Array [
-        -0.5,
-        -1,
-        0,
+        undefined,
+        undefined,
+        undefined,
       ]
     }
     thickness={0.005}
@@ -1096,9 +733,9 @@ Array [
     onTouchViro={[Function]}
     position={
       Array [
-        4.0699999999999985,
-        -1.86,
-        0,
+        NaN,
+        NaN,
+        undefined,
       ]
     }
     style={
@@ -1147,17 +784,17 @@ Array [
     points={
       Array [
         Array [
-          0.56,
-          -0.8,
-          0,
+          NaN,
+          NaN,
+          undefined,
         ],
       ]
     }
     position={
       Array [
-        -0.5,
-        -1,
-        0,
+        undefined,
+        undefined,
+        undefined,
       ]
     }
     thickness={0.005}
@@ -1189,9 +826,9 @@ Array [
     onTouchViro={[Function]}
     position={
       Array [
-        5.169999999999998,
-        -1.86,
-        0,
+        NaN,
+        NaN,
+        undefined,
       ]
     }
     style={
@@ -1240,17 +877,17 @@ Array [
     points={
       Array [
         Array [
-          1.56,
-          -0.8,
-          0,
+          NaN,
+          NaN,
+          undefined,
         ],
       ]
     }
     position={
       Array [
-        -0.5,
-        -1,
-        0,
+        undefined,
+        undefined,
+        undefined,
       ]
     }
     thickness={0.005}
@@ -1282,9 +919,9 @@ Array [
     onTouchViro={[Function]}
     position={
       Array [
-        6.169999999999998,
-        -1.86,
-        0,
+        NaN,
+        NaN,
+        undefined,
       ]
     }
     style={
@@ -13311,12 +12948,6 @@ Array [
 ]
 `;
 
-exports[`renders correctly react text 1`] = `
-<Text
-  text="whatever"
-/>
-`;
-
 exports[`renders correctly single bars 1`] = `
 Array [
   <VRTPolyline
@@ -13356,7 +12987,7 @@ Array [
           0,
         ],
         Array [
-          0.2543106976744187,
+          -0.46568930232558126,
           2.09,
           0,
         ],
@@ -13370,6 +13001,100 @@ Array [
       ]
     }
     thickness={0.01}
+  />,
+  <VRTPolyline
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    materials={
+      Array [
+        "colMat",
+      ]
+    }
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    points={
+      Array [
+        Array [
+          -0.6,
+          -0.8,
+          0,
+        ],
+      ]
+    }
+    position={
+      Array [
+        -0.5,
+        -1,
+        0,
+      ]
+    }
+    thickness={0.01}
+  />,
+  ",",
+  <VRTText
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    height={100}
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    position={
+      Array [
+        4.1,
+        -1.86,
+        0,
+      ]
+    }
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontFamily": "Arial",
+          "fontSize": 20,
+          "textAlign": "left",
+          "textAlignVertical": "center",
+        },
+      ]
+    }
+    text="Volumes"
+    width={10}
   />,
   <VRTPolyline
     canClick={false}
@@ -13408,7 +13133,7 @@ Array [
           0,
         ],
         Array [
-          0.07843813953488366,
+          -0.6415618604651163,
           1.7979999999999998,
           0,
         ],
@@ -13422,6 +13147,100 @@ Array [
       ]
     }
     thickness={0.01}
+  />,
+  <VRTPolyline
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    materials={
+      Array [
+        "colMat",
+      ]
+    }
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    points={
+      Array [
+        Array [
+          -0.6,
+          -0.8,
+          0,
+        ],
+      ]
+    }
+    position={
+      Array [
+        -0.5,
+        -1,
+        0,
+      ]
+    }
+    thickness={0.01}
+  />,
+  ",",
+  <VRTText
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    height={100}
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    position={
+      Array [
+        4.1,
+        -1.86,
+        0,
+      ]
+    }
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontFamily": "Arial",
+          "fontSize": 20,
+          "textAlign": "left",
+          "textAlignVertical": "center",
+        },
+      ]
+    }
+    text="Volumes"
+    width={10}
   />,
   <VRTPolyline
     canClick={false}
@@ -13489,6 +13308,100 @@ Array [
     hasTransformDelegate={false}
     materials={
       Array [
+        "colMat",
+      ]
+    }
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    points={
+      Array [
+        Array [
+          -0.6,
+          -0.8,
+          0,
+        ],
+      ]
+    }
+    position={
+      Array [
+        -0.5,
+        -1,
+        0,
+      ]
+    }
+    thickness={0.01}
+  />,
+  ",",
+  <VRTText
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    height={100}
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    position={
+      Array [
+        4.1,
+        -1.86,
+        0,
+      ]
+    }
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontFamily": "Arial",
+          "fontSize": 20,
+          "textAlign": "left",
+          "textAlignVertical": "center",
+        },
+      ]
+    }
+    text="Volumes"
+    width={10}
+  />,
+  <VRTPolyline
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    materials={
+      Array [
         "colMat2",
       ]
     }
@@ -13508,12 +13421,12 @@ Array [
       Array [
         Array [
           1.08,
-          1.2139999999999997,
+          1.214,
           0,
         ],
         Array [
           1.234773488372093,
-          1.2139999999999997,
+          1.214,
           0,
         ],
       ]
@@ -13526,6 +13439,100 @@ Array [
       ]
     }
     thickness={0.01}
+  />,
+  <VRTPolyline
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    materials={
+      Array [
+        "colMat",
+      ]
+    }
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    points={
+      Array [
+        Array [
+          -0.6,
+          -0.8,
+          0,
+        ],
+      ]
+    }
+    position={
+      Array [
+        -0.5,
+        -1,
+        0,
+      ]
+    }
+    thickness={0.01}
+  />,
+  ",",
+  <VRTText
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    height={100}
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    position={
+      Array [
+        4.1,
+        -1.86,
+        0,
+      ]
+    }
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontFamily": "Arial",
+          "fontSize": 20,
+          "textAlign": "left",
+          "textAlignVertical": "center",
+        },
+      ]
+    }
+    text="Volumes"
+    width={10}
   />,
   <VRTPolyline
     canClick={false}
@@ -13560,12 +13567,12 @@ Array [
       Array [
         Array [
           1.08,
-          0.9219999999999997,
+          0.9219999999999999,
           0,
         ],
         Array [
           1.9758352366606506,
-          0.9219999999999997,
+          0.9219999999999999,
           0,
         ],
       ]
@@ -13578,6 +13585,100 @@ Array [
       ]
     }
     thickness={0.01}
+  />,
+  <VRTPolyline
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    materials={
+      Array [
+        "colMat",
+      ]
+    }
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    points={
+      Array [
+        Array [
+          -0.6,
+          -0.8,
+          0,
+        ],
+      ]
+    }
+    position={
+      Array [
+        -0.5,
+        -1,
+        0,
+      ]
+    }
+    thickness={0.01}
+  />,
+  ",",
+  <VRTText
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    height={100}
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    position={
+      Array [
+        4.1,
+        -1.86,
+        0,
+      ]
+    }
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontFamily": "Arial",
+          "fontSize": 20,
+          "textAlign": "left",
+          "textAlignVertical": "center",
+        },
+      ]
+    }
+    text="Volumes"
+    width={10}
   />,
   <VRTPolyline
     canClick={false}
@@ -13612,12 +13713,12 @@ Array [
       Array [
         Array [
           1.08,
-          0.6299999999999997,
+          0.6299999999999999,
           0,
         ],
         Array [
           1.6867758139534883,
-          0.6299999999999997,
+          0.6299999999999999,
           0,
         ],
       ]
@@ -13630,6 +13731,100 @@ Array [
       ]
     }
     thickness={0.01}
+  />,
+  <VRTPolyline
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    materials={
+      Array [
+        "colMat",
+      ]
+    }
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    points={
+      Array [
+        Array [
+          -0.6,
+          -0.8,
+          0,
+        ],
+      ]
+    }
+    position={
+      Array [
+        -0.5,
+        -1,
+        0,
+      ]
+    }
+    thickness={0.01}
+  />,
+  ",",
+  <VRTText
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    height={100}
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    position={
+      Array [
+        4.1,
+        -1.86,
+        0,
+      ]
+    }
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontFamily": "Arial",
+          "fontSize": 20,
+          "textAlign": "left",
+          "textAlignVertical": "center",
+        },
+      ]
+    }
+    text="Volumes"
+    width={10}
   />,
   <VRTPolyline
     canClick={false}
@@ -13664,12 +13859,12 @@ Array [
       Array [
         Array [
           1.08,
-          0.3379999999999997,
+          0.3380000000000001,
           0,
         ],
         Array [
-          -0.30383395348837205,
-          0.3379999999999997,
+          -1.023833953488372,
+          0.3380000000000001,
           0,
         ],
       ]
@@ -13682,6 +13877,100 @@ Array [
       ]
     }
     thickness={0.01}
+  />,
+  <VRTPolyline
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    materials={
+      Array [
+        "colMat",
+      ]
+    }
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    points={
+      Array [
+        Array [
+          -0.6,
+          -0.8,
+          0,
+        ],
+      ]
+    }
+    position={
+      Array [
+        -0.5,
+        -1,
+        0,
+      ]
+    }
+    thickness={0.01}
+  />,
+  ",",
+  <VRTText
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    height={100}
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    position={
+      Array [
+        4.1,
+        -1.86,
+        0,
+      ]
+    }
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontFamily": "Arial",
+          "fontSize": 20,
+          "textAlign": "left",
+          "textAlignVertical": "center",
+        },
+      ]
+    }
+    text="Volumes"
+    width={10}
   />,
   <VRTPolyline
     canClick={false}
@@ -13716,12 +14005,12 @@ Array [
       Array [
         Array [
           1.08,
-          0.04599999999999971,
+          0.04599999999999982,
           0,
         ],
         Array [
           2.172672558139535,
-          0.04599999999999971,
+          0.04599999999999982,
           0,
         ],
       ]
@@ -13734,6 +14023,100 @@ Array [
       ]
     }
     thickness={0.01}
+  />,
+  <VRTPolyline
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    materials={
+      Array [
+        "colMat",
+      ]
+    }
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    points={
+      Array [
+        Array [
+          -0.6,
+          -0.8,
+          0,
+        ],
+      ]
+    }
+    position={
+      Array [
+        -0.5,
+        -1,
+        0,
+      ]
+    }
+    thickness={0.01}
+  />,
+  ",",
+  <VRTText
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    height={100}
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    position={
+      Array [
+        4.1,
+        -1.86,
+        0,
+      ]
+    }
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontFamily": "Arial",
+          "fontSize": 20,
+          "textAlign": "left",
+          "textAlignVertical": "center",
+        },
+      ]
+    }
+    text="Volumes"
+    width={10}
   />,
 ]
 `;
@@ -13777,8 +14160,8 @@ Array [
           0,
         ],
         Array [
-          0,
           1.5456893023255813,
+          NaN,
           0,
         ],
       ]
@@ -13791,6 +14174,100 @@ Array [
       ]
     }
     thickness={0.01}
+  />,
+  <VRTPolyline
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    materials={
+      Array [
+        "colMat",
+      ]
+    }
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    points={
+      Array [
+        Array [
+          -0.6,
+          -0.8,
+          0,
+        ],
+      ]
+    }
+    position={
+      Array [
+        -0.5,
+        -1,
+        0,
+      ]
+    }
+    thickness={0.01}
+  />,
+  ",",
+  <VRTText
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    height={100}
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    position={
+      Array [
+        4.1,
+        -1.86,
+        0,
+      ]
+    }
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontFamily": "Arial",
+          "fontSize": 20,
+          "textAlign": "left",
+          "textAlignVertical": "center",
+        },
+      ]
+    }
+    text="Volumes"
+    width={10}
   />,
   <VRTPolyline
     canClick={false}
@@ -13824,13 +14301,13 @@ Array [
     points={
       Array [
         Array [
-          0.3,
           0,
+          -0.3,
           0,
         ],
         Array [
-          0.3,
           1.7215618604651164,
+          NaN,
           0,
         ],
       ]
@@ -13843,6 +14320,100 @@ Array [
       ]
     }
     thickness={0.01}
+  />,
+  <VRTPolyline
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    materials={
+      Array [
+        "colMat",
+      ]
+    }
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    points={
+      Array [
+        Array [
+          -0.6,
+          -0.8,
+          0,
+        ],
+      ]
+    }
+    position={
+      Array [
+        -0.5,
+        -1,
+        0,
+      ]
+    }
+    thickness={0.01}
+  />,
+  ",",
+  <VRTText
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    height={100}
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    position={
+      Array [
+        4.1,
+        -1.86,
+        0,
+      ]
+    }
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontFamily": "Arial",
+          "fontSize": 20,
+          "textAlign": "left",
+          "textAlignVertical": "center",
+        },
+      ]
+    }
+    text="Volumes"
+    width={10}
   />,
   <VRTPolyline
     canClick={false}
@@ -13876,13 +14447,13 @@ Array [
     points={
       Array [
         Array [
-          0.6,
           0,
+          -0.6,
           0,
         ],
         Array [
-          0.6,
           1.5549520930232559,
+          NaN,
           0,
         ],
       ]
@@ -13895,6 +14466,100 @@ Array [
       ]
     }
     thickness={0.01}
+  />,
+  <VRTPolyline
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    materials={
+      Array [
+        "colMat",
+      ]
+    }
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    points={
+      Array [
+        Array [
+          -0.6,
+          -0.8,
+          0,
+        ],
+      ]
+    }
+    position={
+      Array [
+        -0.5,
+        -1,
+        0,
+      ]
+    }
+    thickness={0.01}
+  />,
+  ",",
+  <VRTText
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    height={100}
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    position={
+      Array [
+        4.1,
+        -1.86,
+        0,
+      ]
+    }
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontFamily": "Arial",
+          "fontSize": 20,
+          "textAlign": "left",
+          "textAlignVertical": "center",
+        },
+      ]
+    }
+    text="Volumes"
+    width={10}
   />,
   <VRTPolyline
     canClick={false}
@@ -13928,13 +14593,13 @@ Array [
     points={
       Array [
         Array [
-          0.8999999999999999,
           0,
+          -0.8999999999999999,
           0,
         ],
         Array [
-          0.8999999999999999,
           1.234773488372093,
+          NaN,
           0,
         ],
       ]
@@ -13947,6 +14612,100 @@ Array [
       ]
     }
     thickness={0.01}
+  />,
+  <VRTPolyline
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    materials={
+      Array [
+        "colMat",
+      ]
+    }
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    points={
+      Array [
+        Array [
+          -0.6,
+          -0.8,
+          0,
+        ],
+      ]
+    }
+    position={
+      Array [
+        -0.5,
+        -1,
+        0,
+      ]
+    }
+    thickness={0.01}
+  />,
+  ",",
+  <VRTText
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    height={100}
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    position={
+      Array [
+        4.1,
+        -1.86,
+        0,
+      ]
+    }
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontFamily": "Arial",
+          "fontSize": 20,
+          "textAlign": "left",
+          "textAlignVertical": "center",
+        },
+      ]
+    }
+    text="Volumes"
+    width={10}
   />,
   <VRTPolyline
     canClick={false}
@@ -13980,13 +14739,13 @@ Array [
     points={
       Array [
         Array [
-          1.2,
           0,
+          -1.2,
           0,
         ],
         Array [
-          1.2,
           1.9758352366606506,
+          NaN,
           0,
         ],
       ]
@@ -13999,6 +14758,100 @@ Array [
       ]
     }
     thickness={0.01}
+  />,
+  <VRTPolyline
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    materials={
+      Array [
+        "colMat",
+      ]
+    }
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    points={
+      Array [
+        Array [
+          -0.6,
+          -0.8,
+          0,
+        ],
+      ]
+    }
+    position={
+      Array [
+        -0.5,
+        -1,
+        0,
+      ]
+    }
+    thickness={0.01}
+  />,
+  ",",
+  <VRTText
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    height={100}
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    position={
+      Array [
+        4.1,
+        -1.86,
+        0,
+      ]
+    }
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontFamily": "Arial",
+          "fontSize": 20,
+          "textAlign": "left",
+          "textAlignVertical": "center",
+        },
+      ]
+    }
+    text="Volumes"
+    width={10}
   />,
   <VRTPolyline
     canClick={false}
@@ -14032,13 +14885,13 @@ Array [
     points={
       Array [
         Array [
-          1.5,
           0,
+          -1.5,
           0,
         ],
         Array [
-          1.5,
           1.6867758139534883,
+          NaN,
           0,
         ],
       ]
@@ -14051,6 +14904,100 @@ Array [
       ]
     }
     thickness={0.01}
+  />,
+  <VRTPolyline
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    materials={
+      Array [
+        "colMat",
+      ]
+    }
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    points={
+      Array [
+        Array [
+          -0.6,
+          -0.8,
+          0,
+        ],
+      ]
+    }
+    position={
+      Array [
+        -0.5,
+        -1,
+        0,
+      ]
+    }
+    thickness={0.01}
+  />,
+  ",",
+  <VRTText
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    height={100}
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    position={
+      Array [
+        4.1,
+        -1.86,
+        0,
+      ]
+    }
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontFamily": "Arial",
+          "fontSize": 20,
+          "textAlign": "left",
+          "textAlignVertical": "center",
+        },
+      ]
+    }
+    text="Volumes"
+    width={10}
   />,
   <VRTPolyline
     canClick={false}
@@ -14084,13 +15031,13 @@ Array [
     points={
       Array [
         Array [
-          1.8,
           0,
+          -1.7999999999999998,
           0,
         ],
         Array [
-          1.8,
           2.103833953488372,
+          NaN,
           0,
         ],
       ]
@@ -14103,6 +15050,100 @@ Array [
       ]
     }
     thickness={0.01}
+  />,
+  <VRTPolyline
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    materials={
+      Array [
+        "colMat",
+      ]
+    }
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    points={
+      Array [
+        Array [
+          -0.6,
+          -0.8,
+          0,
+        ],
+      ]
+    }
+    position={
+      Array [
+        -0.5,
+        -1,
+        0,
+      ]
+    }
+    thickness={0.01}
+  />,
+  ",",
+  <VRTText
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    height={100}
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    position={
+      Array [
+        4.1,
+        -1.86,
+        0,
+      ]
+    }
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontFamily": "Arial",
+          "fontSize": 20,
+          "textAlign": "left",
+          "textAlignVertical": "center",
+        },
+      ]
+    }
+    text="Volumes"
+    width={10}
   />,
   <VRTPolyline
     canClick={false}
@@ -14136,13 +15177,13 @@ Array [
     points={
       Array [
         Array [
-          2.1,
           0,
+          -2.1,
           0,
         ],
         Array [
-          2.1,
           2.172672558139535,
+          NaN,
           0,
         ],
       ]
@@ -14155,6 +15196,100 @@ Array [
       ]
     }
     thickness={0.01}
+  />,
+  <VRTPolyline
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    materials={
+      Array [
+        "colMat",
+      ]
+    }
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    points={
+      Array [
+        Array [
+          -0.6,
+          -0.8,
+          0,
+        ],
+      ]
+    }
+    position={
+      Array [
+        -0.5,
+        -1,
+        0,
+      ]
+    }
+    thickness={0.01}
+  />,
+  ",",
+  <VRTText
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    height={100}
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    position={
+      Array [
+        4.1,
+        -1.86,
+        0,
+      ]
+    }
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontFamily": "Arial",
+          "fontSize": 20,
+          "textAlign": "left",
+          "textAlignVertical": "center",
+        },
+      ]
+    }
+    text="Volumes"
+    width={10}
   />,
 ]
 `;
@@ -14194,12 +15329,12 @@ Array [
       Array [
         Array [
           -0.3,
-          1.5456893023255813,
+          undefined,
           0,
         ],
         Array [
           -0.3,
-          1.5456893023255813,
+          undefined,
           0,
         ],
       ]
@@ -14263,7 +15398,7 @@ Array [
         0,
       ]
     }
-    thickness={0.02}
+    thickness={0.01}
   />,
   <VRTPolyline
     canClick={false}
@@ -14297,12 +15432,64 @@ Array [
     points={
       Array [
         Array [
-          -0.3,
-          1.5456893023255813,
+          -0.6,
+          undefined,
           0,
         ],
         Array [
+          -0.6,
+          undefined,
           0,
+        ],
+      ]
+    }
+    position={
+      Array [
+        -0.2,
+        -1,
+        0,
+      ]
+    }
+    thickness={0.01}
+  />,
+  <VRTPolyline
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    materials={
+      Array [
+        "colMat2",
+      ]
+    }
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    points={
+      Array [
+        Array [
+          -0.6,
+          1.7215618604651164,
+          0,
+        ],
+        Array [
+          -0.6,
           1.7215618604651164,
           0,
         ],
@@ -14349,13 +15536,13 @@ Array [
     points={
       Array [
         Array [
-          -0.3,
-          1.5456893023255813,
+          -0.8999999999999999,
+          undefined,
           0,
         ],
         Array [
-          -0.3,
-          1.5456893023255813,
+          -0.8999999999999999,
+          undefined,
           0,
         ],
       ]
@@ -14367,7 +15554,7 @@ Array [
         0,
       ]
     }
-    thickness={0.02}
+    thickness={0.01}
   />,
   <VRTPolyline
     canClick={false}
@@ -14401,12 +15588,12 @@ Array [
     points={
       Array [
         Array [
-          0,
-          1.7215618604651164,
+          -0.8999999999999999,
+          1.5549520930232559,
           0,
         ],
         Array [
-          0.3,
+          -0.8999999999999999,
           1.5549520930232559,
           0,
         ],
@@ -14453,13 +15640,13 @@ Array [
     points={
       Array [
         Array [
-          0,
-          1.7215618604651164,
+          -1.2,
+          undefined,
           0,
         ],
         Array [
-          0,
-          1.7215618604651164,
+          -1.2,
+          undefined,
           0,
         ],
       ]
@@ -14471,7 +15658,7 @@ Array [
         0,
       ]
     }
-    thickness={0.02}
+    thickness={0.01}
   />,
   <VRTPolyline
     canClick={false}
@@ -14505,12 +15692,12 @@ Array [
     points={
       Array [
         Array [
-          0.3,
-          1.5549520930232559,
+          -1.2,
+          1.234773488372093,
           0,
         ],
         Array [
-          0.6,
+          -1.2,
           1.234773488372093,
           0,
         ],
@@ -14557,13 +15744,13 @@ Array [
     points={
       Array [
         Array [
-          0.3,
-          1.5549520930232559,
+          -1.5,
+          undefined,
           0,
         ],
         Array [
-          0.3,
-          1.5549520930232559,
+          -1.5,
+          undefined,
           0,
         ],
       ]
@@ -14575,7 +15762,7 @@ Array [
         0,
       ]
     }
-    thickness={0.02}
+    thickness={0.01}
   />,
   <VRTPolyline
     canClick={false}
@@ -14609,12 +15796,12 @@ Array [
     points={
       Array [
         Array [
-          0.6,
-          1.234773488372093,
+          -1.5,
+          1.9758352366606506,
           0,
         ],
         Array [
-          0.8999999999999999,
+          -1.5,
           1.9758352366606506,
           0,
         ],
@@ -14661,13 +15848,13 @@ Array [
     points={
       Array [
         Array [
-          0.6,
-          1.234773488372093,
+          -1.8,
+          undefined,
           0,
         ],
         Array [
-          0.6,
-          1.234773488372093,
+          -1.8,
+          undefined,
           0,
         ],
       ]
@@ -14679,7 +15866,7 @@ Array [
         0,
       ]
     }
-    thickness={0.02}
+    thickness={0.01}
   />,
   <VRTPolyline
     canClick={false}
@@ -14713,12 +15900,12 @@ Array [
     points={
       Array [
         Array [
-          0.8999999999999999,
-          1.9758352366606506,
+          -1.8,
+          1.6867758139534883,
           0,
         ],
         Array [
-          1.2,
+          -1.8,
           1.6867758139534883,
           0,
         ],
@@ -14765,13 +15952,13 @@ Array [
     points={
       Array [
         Array [
-          0.8999999999999999,
-          1.9758352366606506,
+          -2.0999999999999996,
+          undefined,
           0,
         ],
         Array [
-          0.8999999999999999,
-          1.9758352366606506,
+          -2.0999999999999996,
+          undefined,
           0,
         ],
       ]
@@ -14783,7 +15970,7 @@ Array [
         0,
       ]
     }
-    thickness={0.02}
+    thickness={0.01}
   />,
   <VRTPolyline
     canClick={false}
@@ -14817,12 +16004,12 @@ Array [
     points={
       Array [
         Array [
-          1.2,
-          1.6867758139534883,
+          -2.0999999999999996,
+          2.103833953488372,
           0,
         ],
         Array [
-          1.5,
+          -2.0999999999999996,
           2.103833953488372,
           0,
         ],
@@ -14869,168 +16056,12 @@ Array [
     points={
       Array [
         Array [
-          1.2,
-          1.6867758139534883,
-          0,
-        ],
-        Array [
-          1.2,
-          1.6867758139534883,
-          0,
-        ],
-      ]
-    }
-    position={
-      Array [
-        -0.2,
-        -1,
-        0,
-      ]
-    }
-    thickness={0.02}
-  />,
-  <VRTPolyline
-    canClick={false}
-    canCollide={false}
-    canDrag={false}
-    canFuse={false}
-    canHover={false}
-    canPinch={false}
-    canRotate={false}
-    canScroll={false}
-    canSwipe={false}
-    canTouch={false}
-    hasTransformDelegate={false}
-    materials={
-      Array [
-        "colMat2",
-      ]
-    }
-    onAnimationFinishViro={[Function]}
-    onAnimationStartViro={[Function]}
-    onClickViro={[Function]}
-    onCollisionViro={[Function]}
-    onDragViro={[Function]}
-    onFuseViro={[Function]}
-    onHoverViro={[Function]}
-    onPinchViro={[Function]}
-    onRotateViro={[Function]}
-    onScrollViro={[Function]}
-    onSwipeViro={[Function]}
-    onTouchViro={[Function]}
-    points={
-      Array [
-        Array [
-          1.5,
-          2.103833953488372,
-          0,
-        ],
-        Array [
-          1.8,
-          2.172672558139535,
-          0,
-        ],
-      ]
-    }
-    position={
-      Array [
-        -0.2,
-        -1,
-        0,
-      ]
-    }
-    thickness={0.01}
-  />,
-  <VRTPolyline
-    canClick={false}
-    canCollide={false}
-    canDrag={false}
-    canFuse={false}
-    canHover={false}
-    canPinch={false}
-    canRotate={false}
-    canScroll={false}
-    canSwipe={false}
-    canTouch={false}
-    hasTransformDelegate={false}
-    materials={
-      Array [
-        "colMat2",
-      ]
-    }
-    onAnimationFinishViro={[Function]}
-    onAnimationStartViro={[Function]}
-    onClickViro={[Function]}
-    onCollisionViro={[Function]}
-    onDragViro={[Function]}
-    onFuseViro={[Function]}
-    onHoverViro={[Function]}
-    onPinchViro={[Function]}
-    onRotateViro={[Function]}
-    onScrollViro={[Function]}
-    onSwipeViro={[Function]}
-    onTouchViro={[Function]}
-    points={
-      Array [
-        Array [
-          1.5,
-          2.103833953488372,
-          0,
-        ],
-        Array [
-          1.5,
-          2.103833953488372,
-          0,
-        ],
-      ]
-    }
-    position={
-      Array [
-        -0.2,
-        -1,
-        0,
-      ]
-    }
-    thickness={0.02}
-  />,
-  <VRTPolyline
-    canClick={false}
-    canCollide={false}
-    canDrag={false}
-    canFuse={false}
-    canHover={false}
-    canPinch={false}
-    canRotate={false}
-    canScroll={false}
-    canSwipe={false}
-    canTouch={false}
-    hasTransformDelegate={false}
-    materials={
-      Array [
-        "colMat2",
-      ]
-    }
-    onAnimationFinishViro={[Function]}
-    onAnimationStartViro={[Function]}
-    onClickViro={[Function]}
-    onCollisionViro={[Function]}
-    onDragViro={[Function]}
-    onFuseViro={[Function]}
-    onHoverViro={[Function]}
-    onPinchViro={[Function]}
-    onRotateViro={[Function]}
-    onScrollViro={[Function]}
-    onSwipeViro={[Function]}
-    onTouchViro={[Function]}
-    points={
-      Array [
-        Array [
-          1.8,
+          -2.4,
           2.172672558139535,
           0,
         ],
         Array [
-          1.8,
+          -2.4,
           2.172672558139535,
           0,
         ],
@@ -15044,100 +16075,104 @@ Array [
       ]
     }
     thickness={0.02}
+  />,
+  <VRTPolyline
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    materials={
+      Array [
+        "colMat",
+      ]
+    }
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    points={
+      Array [
+        Array [
+          -0.6,
+          -0.8,
+          0,
+        ],
+        Array [
+          -0.5,
+          -0.8,
+          0,
+        ],
+      ]
+    }
+    position={
+      Array [
+        -0.5,
+        -1,
+        0,
+      ]
+    }
+    thickness={0.005}
+  />,
+  <VRTText
+    canClick={false}
+    canCollide={false}
+    canDrag={false}
+    canFuse={false}
+    canHover={false}
+    canPinch={false}
+    canRotate={false}
+    canScroll={false}
+    canSwipe={false}
+    canTouch={false}
+    hasTransformDelegate={false}
+    height={100}
+    onAnimationFinishViro={[Function]}
+    onAnimationStartViro={[Function]}
+    onClickViro={[Function]}
+    onCollisionViro={[Function]}
+    onDragViro={[Function]}
+    onFuseViro={[Function]}
+    onHoverViro={[Function]}
+    onPinchViro={[Function]}
+    onRotateViro={[Function]}
+    onScrollViro={[Function]}
+    onSwipeViro={[Function]}
+    onTouchViro={[Function]}
+    position={
+      Array [
+        4.1,
+        -1.86,
+        0,
+      ]
+    }
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontFamily": "Arial",
+          "fontSize": 20,
+          "textAlign": "left",
+          "textAlignVertical": "center",
+        },
+      ]
+    }
+    text="Volumes"
+    width={10}
   />,
 ]
-`;
-
-exports[`renders correctly viro line 1`] = `
-<VRTPolyline
-  canClick={false}
-  canCollide={false}
-  canDrag={false}
-  canFuse={false}
-  canHover={false}
-  canPinch={false}
-  canRotate={false}
-  canScroll={false}
-  canSwipe={false}
-  canTouch={false}
-  hasTransformDelegate={false}
-  materials={
-    Array [
-      "red",
-    ]
-  }
-  onAnimationFinishViro={[Function]}
-  onAnimationStartViro={[Function]}
-  onClickViro={[Function]}
-  onCollisionViro={[Function]}
-  onDragViro={[Function]}
-  onFuseViro={[Function]}
-  onHoverViro={[Function]}
-  onPinchViro={[Function]}
-  onRotateViro={[Function]}
-  onScrollViro={[Function]}
-  onSwipeViro={[Function]}
-  onTouchViro={[Function]}
-  points={
-    Array [
-      Array [
-        0,
-        0,
-        0,
-      ],
-      Array [
-        0.5,
-        0.5,
-        0.5,
-      ],
-      Array [
-        1,
-        0,
-        0,
-      ],
-    ]
-  }
-  position={
-    Array [
-      0,
-      0,
-      -2,
-    ]
-  }
-  thickness={0.2}
-/>
-`;
-
-exports[`renders correctly viro text 1`] = `
-<VRTText
-  canClick={false}
-  canCollide={false}
-  canDrag={false}
-  canFuse={false}
-  canHover={false}
-  canPinch={false}
-  canRotate={false}
-  canScroll={false}
-  canSwipe={false}
-  canTouch={false}
-  hasTransformDelegate={false}
-  onAnimationFinishViro={[Function]}
-  onAnimationStartViro={[Function]}
-  onClickViro={[Function]}
-  onCollisionViro={[Function]}
-  onDragViro={[Function]}
-  onFuseViro={[Function]}
-  onHoverViro={[Function]}
-  onPinchViro={[Function]}
-  onRotateViro={[Function]}
-  onScrollViro={[Function]}
-  onSwipeViro={[Function]}
-  onTouchViro={[Function]}
-  style={
-    Array [
-      undefined,
-    ]
-  }
-  text="whatever"
-/>
 `;

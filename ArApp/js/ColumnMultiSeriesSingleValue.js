@@ -15,6 +15,13 @@ var endPoint = [-0.25, colMulSingleY, 0]// end X, Y and Z for Columns Multi Seri
 export const colMulSingle = []; //array to hold the Column Multi Series Single value Polylines
 var colMulSingleCol;
 
+
+// export const colMulSingle = (columnMultiSeriesSgVal) => {
+  
+//   return columnMultiSeriesSgVal.column.map(({ seriesIndex }, index)
+      
+//   );
+// }
 //For loop for creating the columns
 for(var i = 0; i < 19; i++)
 {       

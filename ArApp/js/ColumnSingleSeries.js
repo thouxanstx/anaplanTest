@@ -1,34 +1,55 @@
 "use strict";
 import React, { Component } from "react";
 import { examples, chartColors } from "./chartExamples";
-import {
-  ViroPolyline,
-  ViroMaterials
-} from "react-viro";
-
-
+import { ViroPolyline, ViroMaterials, ViroText } from "react-viro";
+import { StyleSheet } from 'react-native';
+import { uniqueKeyGenerator} from "./utils"
+ 
 //--------------------
 //Column single series
 //--------------------
 var scaler = 2150000; //number to scale from data set to world position
 var columnY; //variable to hold the Y positions of Columns in the Column Chart
-var startPoint = [0, 0, 0]; //start X, Y and Z for Columns in the Column Chart
-var endPoint = [-0.3, columnY, 0]// end X, Y and Z for Columns in the Column Chart
-export const columns = []; //array to hold the Column Polylines
+var startPoint = { x: 0, y: 0, z: 0}; //start X, Y and Z for Columns in the Column Chart
+var endPoint = {x: -0.3, y: columnY, z: 0}// end X, Y and Z for Columns in the Column Chart
+var labelPos = {x: -0.5,y:-1, z: 0}; //X, Y and Z position of the label
+var labelPoints = {x: -0.6, y: -0.8, z: 0}; //X, Y and Z position of the label colour key 
+var labelNamePos = {x: 4.1, y: -1.86, z: 0};
+var styles = StyleSheet.create({
+  labStyle: {
+    fontFamily: 'Arial',
+    fontSize: 20,
+    color: '#000000',
+    textAlignVertical: 'center',
+    textAlign: 'left',  
+  },
+});
+export const columnMaterials = ["colMat2"];
+export const labelMaterials = ["colMat"];
 
-//For loop for creating the columns
-for(var i = 0;i < 8; i++)
-{       
-  columnY = examples["Column single series"]["column"][0]["seriesData"][i]["y"] //set the ColumnY var to the data in chartExamples dataset
-  columnY = columnY / scaler //divide it by a number to get a position in world space
-  endPoint = [endPoint[0] += 0.3, columnY, 0] //set the end point for the Column (add 0.3 to the  end X position to match it with the start X position)
-  //Add the Column to the Column Array with the variables set
-  columns.push(
-    <React.Fragment key = {'_' + Math.random().toString(36).substr(2, 9)}>
-      <ViroPolyline 
+export const columns = (columnSingleSeries) => {
+  
+  return columnSingleSeries.column[0].seriesData.map(({ y }, index) => {
+    const position = y / scaler;
+    const endPointX = (position < 0) ? position + 0.3 : position; 
+    const { label } = columnSingleSeries.column[0];
+    const columnShiftX = .3;
+
+    return(
+      <React.Fragment key = {uniqueKeyGenerator()}>
+        <ViroPolyline 
           position={[-0.5,-1,0]} 
-          points={[[startPoint[0],startPoint[1],startPoint[2]], [endPoint[0],endPoint[1],endPoint[2]]]} 
+          points={[[startPoint.x,startPoint.y - (index * columnShiftX),startPoint.z], [endPointX,endPoint.y -(index * columnShiftX),endPoint.z]]} 
           thickness={0.01} 
-          materials={"colMat2"} /></React.Fragment>)
-  startPoint[0] += .3 //add to the start X position to create the next Column
+          materials={columnMaterials[0]} />
+        <ViroPolyline 
+          position={[labelPos.x, labelPos.y, labelPos.z]} 
+          points={[[labelPoints.x, labelPoints.y, labelPoints.z]]} 
+          thickness={0.01} 
+          materials={labelMaterials[0]} />,
+        <ViroText text = {label} width={10} height={100} position={[labelNamePos.x, labelNamePos.y, labelNamePos.z]} style={styles.labStyle} />
+      </React.Fragment>
+    )
+  });
 }
+
